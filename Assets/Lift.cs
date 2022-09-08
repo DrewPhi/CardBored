@@ -11,7 +11,7 @@ public class Lift : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // Update is called once per frames
     void Update()
     {
         if (Lever.transform.eulerAngles ==  new Vector3(315, 180, 180) && transform.localPosition.y > 3){
